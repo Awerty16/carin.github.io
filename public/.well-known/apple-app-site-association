@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["5FA35JTA4Z.aiden.Cairn"],
+        "components": [
+          { "/": "/t*", "comment": "Trail share links open the full Cairn app when installed" }
+        ]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": ["5FA35JTA4Z.aiden.Cairn.Clip"]
+  }
+}
