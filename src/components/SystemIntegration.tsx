@@ -242,7 +242,7 @@ const SpotlightVisual = () => {
         {/* Results */}
         <div className="bg-white border border-zinc-200 rounded-2xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] overflow-hidden divide-y divide-zinc-100">
           <div className="px-4 py-2">
-            <p className="text-[10px] text-zinc-400 font-semibold uppercase tracking-wider">Cairn — Trails</p>
+            <p className="text-[10px] text-zinc-400 font-semibold uppercase tracking-wider">Carn — Trails</p>
           </div>
           {results.map((r, i) => (
             <motion.div
@@ -283,7 +283,7 @@ const features = [
   },
   {
     title: 'Siri & App Intents',
-    description: 'Control Cairn hands-free with 10 built-in voice commands. Start recording, find nearby trails, or check your stats — all without touching a screen.',
+    description: 'Control Carn hands-free with 10 built-in voice commands. Start recording, find nearby trails, or check your stats — all without touching a screen.',
     Visual: SiriVisual,
   },
   {
@@ -293,7 +293,7 @@ const features = [
   },
   {
     title: 'Spotlight Search',
-    description: 'Your saved trails, waypoints, and recent hikes surface in Spotlight. Find anything in Cairn without even opening the app.',
+    description: 'Your saved trails, waypoints, and recent hikes surface in Spotlight. Find anything in Carn without even opening the app.',
     Visual: SpotlightVisual,
   },
 ];
@@ -320,7 +320,7 @@ export const SystemIntegration = () => {
           transition={{ ...spring, delay: 0.1 }}
           className="text-lg text-zinc-600 max-w-[56ch]"
         >
-          Cairn lives across your entire device — lock screen, Siri, Spotlight, widgets.
+          Carn lives across your entire device — lock screen, Siri, Spotlight, widgets.
         </motion.p>
       </div>
 

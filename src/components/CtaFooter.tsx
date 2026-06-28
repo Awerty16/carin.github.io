@@ -78,12 +78,8 @@ export const CtaFooter = () => {
           {/* Left: Logo + copyright */}
           <div className="flex items-center gap-3">
             {/* Logo mark */}
-            <div className="w-8 h-8 rounded-lg bg-cairn-forest flex items-center justify-center">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 2L2 22h20L12 2z" />
-              </svg>
-            </div>
-            <span className="font-semibold text-zinc-950 tracking-tight">Cairn</span>
+            <img src="/app-icon.png" alt="Carn" className="w-8 h-8 rounded-[8px]" />
+            <span className="font-semibold text-zinc-950 tracking-tight">Carn</span>
             <span className="text-zinc-400 text-sm font-mono ml-1">&copy; 2026</span>
           </div>
 

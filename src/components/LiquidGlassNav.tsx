@@ -1,15 +1,5 @@
 import { motion } from 'framer-motion';
 
-// Cairn stacked-stones mark — matches the iOS app's launch mark.
-const CairnMark = ({ className = '' }: { className?: string }) => (
-  <svg viewBox="0 0 32 32" className={className} aria-hidden="true">
-    <ellipse cx="16" cy="26" rx="11" ry="4.2" fill="var(--color-cairn-forest)" />
-    <ellipse cx="16" cy="19.5" rx="8.5" ry="3.6" fill="var(--color-cairn-moss)" />
-    <ellipse cx="16" cy="13.8" rx="6" ry="3" fill="var(--color-cairn-forest)" />
-    <ellipse cx="16" cy="9" rx="3.6" ry="2.3" fill="var(--color-cairn-moss)" />
-  </svg>
-);
-
 export const LiquidGlassNav = () => {
   return (
     <motion.header
@@ -20,8 +10,8 @@ export const LiquidGlassNav = () => {
     >
       <nav className="flex items-center justify-between px-6 py-3.5 rounded-[2rem] bg-white/55 backdrop-blur-xl border border-white/40 shadow-[0_8px_32px_0_rgba(27,64,34,0.08),inset_0_1px_0_rgba(255,255,255,0.5)]">
         <a href="#top" className="flex items-center gap-2.5">
-          <CairnMark className="w-7 h-7" />
-          <span className="font-bold tracking-tight text-xl text-cairn-pine">Cairn</span>
+          <img src="/app-icon.png" alt="Carn" className="w-8 h-8 rounded-[8px] shadow-[0_2px_8px_rgba(0,0,0,0.25)]" />
+          <span className="font-bold tracking-tight text-xl text-cairn-pine">Carn</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-700">

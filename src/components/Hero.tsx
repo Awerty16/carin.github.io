@@ -42,7 +42,7 @@ export const Hero = () => {
             transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.3 }}
             className="text-lg md:text-xl text-zinc-600 leading-relaxed max-w-[50ch] mb-10"
           >
-            Record your hikes, follow them back, and share them with the community. Cairn brings high-fidelity topographic mapping to your wrist and pocket.
+            Record your hikes, follow them back, and share them with the community. Carn brings high-fidelity topographic mapping to your wrist and pocket.
           </motion.p>
           
           <motion.div 
